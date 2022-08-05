@@ -320,10 +320,12 @@ body {
 }
 .clients-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 30px;
 }
 .clients-item {
-  width: 170px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
   background: #ffffff;
 }
 
