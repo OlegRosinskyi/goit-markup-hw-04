@@ -5,6 +5,7 @@
   --main-btn-color: #ffffff;
   --second-btn-color: #2196f3;
   --accent-color: #2196f3;
+  --main-accent-color: #ffffff;
 }
 /*Removes default browser settings.*/
 p,
@@ -288,14 +289,19 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color: red;
+  /*background-color: red;*/
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .info-soc-icon {
-  outline: 2px solid black;
+  /*outline: 2px solid black;*/
   fill: #afb1b8;
+}
+.info-soc-link:hover,
+.info-soc-link:focus {
+  fill: var(--main-accent-color);
+  background-color: var(--accent-color);
 }
 /* --------------FOUTER ------------*/
 
