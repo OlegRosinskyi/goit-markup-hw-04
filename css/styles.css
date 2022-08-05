@@ -33,6 +33,7 @@ img {
 }
 
 body {
+  max-width: 1600px;
   font-family: "Roboto", sans-serif;
 }
 .list {
@@ -274,7 +275,27 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  padding-bottom: 16px;
+}
+.info-soc {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
   padding-bottom: 30px;
+}
+
+.info-soc-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-soc-icon {
+  outline: 2px solid black;
+  fill: #afb1b8;
 }
 /* --------------FOUTER ------------*/
 
@@ -404,4 +425,3 @@ body {
   color: var(--second-text-color);
   /*width: 322px;*/
 }
-
