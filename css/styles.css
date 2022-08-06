@@ -136,7 +136,7 @@ body {
 }
 .heade-icon {
   margin-right: 10px;
-  outline: 2px solid red;
+  /*outline: 2px solid red;*/
 }
 /* --------------SLOGAN ------------*/
 .slogan {
@@ -204,7 +204,7 @@ body {
   border-radius: 4px;
   width: 270px;
   height: 120px;
-  outline: 2px solid rgb(190, 16, 16);
+  /*outline: 2px solid rgb(190, 16, 16);*/
   margin-bottom: 30px;
 }
 .features-title {
