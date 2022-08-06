@@ -329,12 +329,22 @@ body {
   border-radius: 4px;
   background: #ffffff;
 }
+.clients-link {
+  width: 170px;
+  height: 92px;
 
-.clients-soc {
+  /*background-color: red;*/
   display: flex;
+  align-items: center;
   justify-content: center;
-  gap: 10px;
-  padding-bottom: 30px;
+  fill: #afb1b8;
+}
+/*.info-soc-icon {
+  outline: 2px solid black;
+} */
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--main-accent-color);
 }
 
 /* --------------FOUTER ------------*/
