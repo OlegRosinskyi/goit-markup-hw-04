@@ -202,6 +202,8 @@ body {
   margin-right: auto;
 }
 .feature-icon {
+  display: block;
+  /*------------------------*/
   justify-content: center;
   align-items: center;
   background: #f5f4fa;
@@ -523,7 +525,6 @@ body {
 }
 .product-link:hover,
 .product-link:focus {
-  
   display: block;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
