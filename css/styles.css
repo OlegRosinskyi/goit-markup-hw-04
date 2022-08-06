@@ -193,6 +193,16 @@ body {
 .features-item:last-child {
   margin-right: auto;
 }
+.feature-icon {
+  justify-content: center;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  outline: 2px solid rgb(190, 16, 16);
+  margin-bottom: 30px;
+}
 .features-title {
   font-weight: 700;
   font-size: 14px;
@@ -253,6 +263,9 @@ body {
 .info-item {
   text-align: center;
   width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
   background: #ffffff;
 }
 .info-img {
