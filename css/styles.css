@@ -133,6 +133,7 @@ body {
 .heade-link-communication:hover,
 .heade-link-communication:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .heade-icon {
   margin-right: 10px;
