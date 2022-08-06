@@ -6,6 +6,7 @@
   --second-btn-color: #2196f3;
   --accent-color: #2196f3;
   --main-accent-color: #ffffff;
+  --s-second-text-color: #ffffff;
 }
 /*Removes default browser settings.*/
 p,
@@ -342,6 +343,12 @@ body {
   background: #2f303a;
   padding: 60px 0px;
 }
+.footer-container {
+  display: flex;
+}
+.footer-left-part {
+  margin-right: 30px;
+}
 .footer-log {
   display: inline-block;
   font-family: "Raleway", sans-serif;
@@ -349,7 +356,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--s-second-text-color);
   margin-bottom: 20px;
 }
 
@@ -366,10 +373,13 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--s-second-text-color);
+}
+.footer-link-address::after {
+  content: "    ";
 }
 .footer-link {
-  /*font-style: normal;*/
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -385,6 +395,48 @@ body {
 .footer-link:focus {
   color: var(--accent-color);
 }
+.footer-soc {
+  max-width: 206px;
+}
+.footer-soc-text {
+  font-style: normal;
+  padding-top: 12px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--s-second-text-color);
+  margin-bottom: 20px;
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-soc-item {
+  display: block;
+}
+.footer-soc-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--main-accent-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+/*.info-soc-icon {
+  outline: 2px solid black;
+} */
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  fill: var(--main-accent-color);
+  background-color: var(--accent-color);
+}
+
 /* --------------PAGE-PORTFOLIO ------------*/
 
 /* --------------FILTER ------------*/
