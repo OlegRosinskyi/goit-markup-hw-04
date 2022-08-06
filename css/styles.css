@@ -134,6 +134,10 @@ body {
 .heade-link-communication:focus {
   color: var(--accent-color);
 }
+.heade-icon {
+  margin-right: 10px;
+  outline: 2px solid red;
+}
 /* --------------SLOGAN ------------*/
 .slogan {
   background-color: #2f303a;
