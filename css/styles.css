@@ -216,16 +216,19 @@ body {
   margin-right: auto;
 }
 .feature-icon {
-  display: block;
+  /* display: block;*/
   /*------------------------*/
-  justify-content: center;
-  align-items: center;
+  display: flex;
   background: #f5f4fa;
   border-radius: 4px;
   width: 270px;
   height: 120px;
   /*outline: 2px solid rgb(190, 16, 16);*/
   margin-bottom: 30px;
+}
+.feature-icon {
+  justify-content: center;
+  align-items: center;
 }
 .features-title {
   font-weight: 700;
