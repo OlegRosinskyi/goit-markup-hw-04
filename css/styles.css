@@ -8,6 +8,9 @@
   --main-accent-color: #ffffff;
   --s-second-text-color: #ffffff;
 }
+/*a {
+  text-decoration: none;
+}*/
 /*Removes default browser settings.*/
 p,
 h1,
@@ -528,10 +531,14 @@ body {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+  /*text-decoration-style: inherit;*/
+}
+.product-link {
+  text-decoration: none;
 }
 .product-link:hover,
 .product-link:focus {
-  display: block;
+  display: inline-block;
   border: 1px solid #eeeeee;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -547,6 +554,7 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-text-color);
+
   /*width: 322px;*/
 
   margin-bottom: 4px;
@@ -557,5 +565,6 @@ body {
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--second-text-color);
+  text-decoration: none;
   /*width: 322px;*/
 }
