@@ -364,11 +364,11 @@ body {
   justify-content: center;
   gap: 30px;
 }
-.clients-item {
+/*.clients-item {
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  /*background: #f5f5f5; #f5f5f5;*/
-}
+ 
+}*/
 .clients-link {
   width: 170px;
   height: 92px;
