@@ -382,7 +382,8 @@ body {
 }
 .clients-link:hover {
   fill: var(--accent-color);
-  border: var(--accent-color);
+  /*border: var(--accent-color);*/
+  border-color: var(--accent-color);
 }
 .clients-link:focus {
   fill: var(--accent-color);
